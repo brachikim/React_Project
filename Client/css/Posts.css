@@ -1,0 +1,114 @@
+.post-list-container {
+    padding-inline: 23px
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 34px;
+    margin-top: 57px;
+}
+
+.post-tile a {
+    color: #161616;
+    text-decoration: none;
+}
+
+.post-list-container button {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post-info {
+    height: 150px;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid rgb(127, 205, 179);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.post-info:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -5px);
+}
+
+.post-type {
+    height: 34px;
+    padding: 6px 26px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEAD0;
+    color: #4D4D4D;
+    transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.post-type:hover {
+    color: #FFEAD0;
+}
+
+.post-type:focus {
+    outline: none;
+}
+
+.post-type.selected {
+    color: #FFEAD0;
+}
+
+.post-type.simple:hover,
+.van-type.simple.selected {
+    background-color: #E17654;
+}
+
+.post-type.rugged:hover,
+.van-type.rugged.selected {
+    background-color: #115E59;
+}
+
+.post-type.luxury:hover,
+.van-type.luxury.selected {
+    background-color: #161616;
+}
+
+.post-type.clear-filters {
+    margin-left: -20px;
+    height: 34px;
+    padding: 6px 26px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    text-decoration: underline;
+    background-color: transparent;
+    color: #4D4D4D;
+}
+
+.add-todo-form {
+    margin-top: 20px;
+}
+
+.add-todo-form input {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.add-todo-form button {
+    margin-right: 13px;
+}
+
+.select-category {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.input-search {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+}

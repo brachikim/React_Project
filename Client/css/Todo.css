@@ -1,0 +1,57 @@
+.todo-detail-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .todo-detail {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  .todo-checkbox{
+    margin-right: 250px;
+    height: 20px;
+  }
+  .todo-label{
+    display: flex;
+  }
+  .todo-detail label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+    align-items: center; /* Align items in the center vertically */
+  }
+  
+  .todo-detail input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+  }
+  
+  .todo-detail button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(127, 205, 179);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .todo-detail button:hover {
+    background-color: rgb(127, 205, 179);
+  }
+  
+  .todo-detail h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
